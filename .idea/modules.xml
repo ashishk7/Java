@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/a. Hello World/a. Hello World.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/a. Hello World/a. Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/a. Nested If Else/a. Nested If Else.iml" filepath="$PROJECT_DIR$/2. If Else/a. Nested If Else/a. Nested If Else.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/b. Print Star Pattern/b. Print Star Pattern.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/b. Print Star Pattern/b. Print Star Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/c. Print Alphabets/c. Print Alphabets.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/c. Print Alphabets/c. Print Alphabets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/d. Input From User/d. Input From User.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/d. Input From User/d. Input From User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/e. Perform Arithmetic Operations/e. Perform Arithmetic Operations.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/e. Perform Arithmetic Operations/e. Perform Arithmetic Operations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/f. Simple Calculator/f. Simple Calculator.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/f. Simple Calculator/f. Simple Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/g. Concatenate Numbers/g. Concatenate Numbers.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/g. Concatenate Numbers/g. Concatenate Numbers.iml" />
+    </modules>
+  </component>
+</project>
