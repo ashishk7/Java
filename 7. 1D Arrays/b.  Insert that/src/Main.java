@@ -1,6 +1,6 @@
 /*Write a program to input N numbers array, a number X and a number Y from
 user and insert an element Y in it at specified position X. X is based on 1-based indexing.*/
-
+//unsolved
 import java.util.Scanner;  // Import the Scanner class
 public class Main {
     public static void main(String[] args) {
