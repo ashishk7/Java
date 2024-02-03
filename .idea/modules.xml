@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/n. Consecutive Duplicate/1D Arrays.Consecutive Duplicate.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/n. Consecutive Duplicate/1D Arrays.Consecutive Duplicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/e. Copy the Array/1D Arrays.Copy the Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/e. Copy the Array/1D Arrays.Copy the Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/i. Even Odd Elements/1D Arrays.Even Odd Elements.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/i. Even Odd Elements/1D Arrays.Even Odd Elements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/l. Frequency count/1D Arrays.Frequency count.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/l. Frequency count/1D Arrays.Frequency count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/b.  Insert that/1D Arrays.Insert that.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/b.  Insert that/1D Arrays.Insert that.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/c. Max and Min of an Array/1D Arrays.Max and Min of an Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/c. Max and Min of an Array/1D Arrays.Max and Min of an Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/h. Negative Integers/1D Arrays.Negative Integers.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/h. Negative Integers/1D Arrays.Negative Integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/m. Pair Count/1D Arrays.Pair Count.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/m. Pair Count/1D Arrays.Pair Count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/a. Print in Reverse/1D Arrays.Print in Reverse.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/a. Print in Reverse/1D Arrays.Print in Reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/k. Product of elements/1D Arrays.Product of elements.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/k. Product of elements/1D Arrays.Product of elements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/g. Remove that/1D Arrays.Remove that.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/g. Remove that/1D Arrays.Remove that.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/f. Search Element/1D Arrays.Search Element.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/f. Search Element/1D Arrays.Search Element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/j. Separate Odd Even/1D Arrays.Separate Odd Even.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/j. Separate Odd Even/1D Arrays.Separate Odd Even.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/d. Sum the Array/1D Arrays.Sum the Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/d. Sum the Array/1D Arrays.Sum the Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/i. Armstrong Numbers/For Loop.Armstrong Numbers.iml" filepath="$PROJECT_DIR$/4. For Loop/i. Armstrong Numbers/For Loop.Armstrong Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/a. Count Factors/For Loop.Count Factors.iml" filepath="$PROJECT_DIR$/4. For Loop/a. Count Factors/For Loop.Count Factors.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/h. HCF - Easy/For Loop.HCF - Easy.iml" filepath="$PROJECT_DIR$/4. For Loop/h. HCF - Easy/For Loop.HCF - Easy.iml" />
@@ -13,6 +27,15 @@
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/e. Print a matrix of stars/For Loop.Print a matrix of stars.iml" filepath="$PROJECT_DIR$/4. For Loop/e. Print a matrix of stars/For Loop.Print a matrix of stars.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/j. Print the Primes/For Loop.Print the Primes.iml" filepath="$PROJECT_DIR$/4. For Loop/j. Print the Primes/For Loop.Print the Primes.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. For Loop/f. Stair PatternStair Pattern/For Loop.Stair PatternStair Pattern.iml" filepath="$PROJECT_DIR$/4. For Loop/f. Stair PatternStair Pattern/For Loop.Stair PatternStair Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/a. Area of Circle/Functions.Area of Circle.iml" filepath="$PROJECT_DIR$/6. Functions/a. Area of Circle/Functions.Area of Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/f. Count of primes/Functions.Count of primes.iml" filepath="$PROJECT_DIR$/6. Functions/f. Count of primes/Functions.Count of primes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/c. Favourite Chocolate/Functions.Favourite Chocolate.iml" filepath="$PROJECT_DIR$/6. Functions/c. Favourite Chocolate/Functions.Favourite Chocolate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/g.  HCF - Easy/Functions.HCF - Easy.iml" filepath="$PROJECT_DIR$/6. Functions/g.  HCF - Easy/Functions.HCF - Easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/i. Is Perfect Square/Functions.Is Perfect Square.iml" filepath="$PROJECT_DIR$/6. Functions/i. Is Perfect Square/Functions.Is Perfect Square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/h. LCM - Easy/Functions.LCM - Easy.iml" filepath="$PROJECT_DIR$/6. Functions/h. LCM - Easy/Functions.LCM - Easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/e. Power function/Functions.Power function.iml" filepath="$PROJECT_DIR$/6. Functions/e. Power function/Functions.Power function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/d. Sum of evens/Functions.Sum of evens.iml" filepath="$PROJECT_DIR$/6. Functions/d. Sum of evens/Functions.Sum of evens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/b. Volume Of Sphere/Functions.Volume Of Sphere.iml" filepath="$PROJECT_DIR$/6. Functions/b. Volume Of Sphere/Functions.Volume Of Sphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/2. If Else/l. Angles Of Valid Triangle/If Else.Angles Of Valid Triangle.iml" filepath="$PROJECT_DIR$/2. If Else/l. Angles Of Valid Triangle/If Else.Angles Of Valid Triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/2. If Else/p. Bank Account/If Else.Bank Account.iml" filepath="$PROJECT_DIR$/2. If Else/p. Bank Account/If Else.Bank Account.iml" />
       <module fileurl="file://$PROJECT_DIR$/2. If Else/b. Check Even and Odd/If Else.Check Even and Odd.iml" filepath="$PROJECT_DIR$/2. If Else/b. Check Even and Odd/If Else.Check Even and Odd.iml" />
