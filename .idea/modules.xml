@@ -3,13 +3,26 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/a. Hello World/a. Hello World.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/a. Hello World/a. Hello World.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2. If Else/a. Nested If Else/a. Nested If Else.iml" filepath="$PROJECT_DIR$/2. If Else/a. Nested If Else/a. Nested If Else.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/a. Nested If-Else/a. Nested If-Else.iml" filepath="$PROJECT_DIR$/2. If Else/a. Nested If-Else/a. Nested If-Else.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/b. Check Even and Odd/b. Check Even and Odd.iml" filepath="$PROJECT_DIR$/2. If Else/b. Check Even and Odd/b. Check Even and Odd.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/b. Print Star Pattern/b. Print Star Pattern.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/b. Print Star Pattern/b. Print Star Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/c. Print Alphabets/c. Print Alphabets.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/c. Print Alphabets/c. Print Alphabets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/c. Which month/c. Which month.iml" filepath="$PROJECT_DIR$/2. If Else/c. Which month/c. Which month.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/d. Input From User/d. Input From User.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/d. Input From User/d. Input From User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/d. Max of Three/d. Max of Three.iml" filepath="$PROJECT_DIR$/2. If Else/d. Max of Three/d. Max of Three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/e. Percentage and grade/e. Percentage and grade.iml" filepath="$PROJECT_DIR$/2. If Else/e. Percentage and grade/e. Percentage and grade.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/e. Perform Arithmetic Operations/e. Perform Arithmetic Operations.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/e. Perform Arithmetic Operations/e. Perform Arithmetic Operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/f. Simple Calculator/f. Simple Calculator.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/f. Simple Calculator/f. Simple Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/f. Which Triangle/f. Which Triangle.iml" filepath="$PROJECT_DIR$/2. If Else/f. Which Triangle/f. Which Triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/1. Introduction to Java/g. Concatenate Numbers/g. Concatenate Numbers.iml" filepath="$PROJECT_DIR$/1. Introduction to Java/g. Concatenate Numbers/g. Concatenate Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/g. Min of two/g. Min of two.iml" filepath="$PROJECT_DIR$/2. If Else/g. Min of two/g. Min of two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/h. Confusion In Electricity Bill/h. Confusion In Electricity Bill.iml" filepath="$PROJECT_DIR$/2. If Else/h. Confusion In Electricity Bill/h. Confusion In Electricity Bill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/i. Print last digit/i. Print last digit.iml" filepath="$PROJECT_DIR$/2. If Else/i. Print last digit/i. Print last digit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/j. Coding Rating/j. Coding Rating.iml" filepath="$PROJECT_DIR$/2. If Else/j. Coding Rating/j. Coding Rating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/k. Fizz Buzz/j. Fizz Buzz.iml" filepath="$PROJECT_DIR$/2. If Else/k. Fizz Buzz/j. Fizz Buzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/l. Angles Of Valid Triangle/k. Angles Of Valid Triangle.iml" filepath="$PROJECT_DIR$/2. If Else/l. Angles Of Valid Triangle/k. Angles Of Valid Triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/m. Profit Or Loss/l. Profit Or Loss.iml" filepath="$PROJECT_DIR$/2. If Else/m. Profit Or Loss/l. Profit Or Loss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. If Else/n. Days In Month/n. Days In Month.iml" filepath="$PROJECT_DIR$/2. If Else/n. Days In Month/n. Days In Month.iml" />
     </modules>
   </component>
 </project>
