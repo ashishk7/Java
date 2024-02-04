@@ -9,6 +9,7 @@ public class Main {
         System.out.print("Enter array Length: ");
         int N = scanner.nextInt();  //take input from the user
         int[] arr = new int[N];
+        int[] newArr = new int[N+1];
 
         System.out.print("Enter array elements separated by space: ");
         for (int i = 0 ; i<N; i++){
@@ -21,13 +22,19 @@ public class Main {
         System.out.print("Enter Element(number) to be inserted: ");
         int Y = scanner.nextInt();  // take input of new element
 
-        System.out.print("New Array is: ");
         for (int j=0; j<X ; j++){
-            System.out.print(arr[j]+ " ");  //print array till X position
+            newArr[j]=arr[j];        //add elements of arr to newArr till X
         }
-        System.out.print(Y+" ");           //print new value
-        for (int j=X; j<N ; j++){           //print remaining elements of the array
-            System.out.print(arr[j]+ " ");
+
+        newArr[X-1] = Y;               //add new element Y to position X
+
+        for (int j=(X); j<newArr.length ; j++){  //add remaining elements starting from X+1 to N+1
+            newArr[j]=arr[j-1];
+        }
+
+        System.out.print("New Array is: ");    //Print new array
+        for(int k = 0 ; k<(N+1); k++){
+            System.out.print(newArr[k]+ " ");
         }
     }
 }
