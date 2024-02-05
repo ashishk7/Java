@@ -1,0 +1,43 @@
+Problem Description
+You are given two integers A and B.
+You have to find the value of A^B.
+NOTE: The value of answer is always less than or equal to 10^9.
+
+Problem Constraints
+1 <= A, B <= 1000
+
+Input Format
+First parameter is an integer A.
+Second parameter is an integer B.
+
+Output Format
+Return an integer.
+
+Example Input
+Input 1:
+ A = 2
+ B = 3
+Input 2:
+ A = 1
+ B = 10
+
+Example Output
+Output 1:
+ 8
+Output 2:
+ 1
+
+Example Explanation
+Explanation 1:
+ For A = 2 and B = 3, the value of 2^3 = 2 * 2 * 2 = 8.
+Explanation 2:
+ For A = 1 and B = 10, the value of 1^10 = 1.
+
+
+ NOTES:
+The java.lang.Math.pow() is used to calculate a number raise to the power of some other number. This function accepts two parameters and returns the value of first parameter raised to the second parameter. There are some special cases as listed below:
+
+If the second parameter is positive or negative zero then the result will be 1.0.
+If the second parameter is 1.0 then the result will be same as that of the first parameter.
+If the second parameter is NaN then the result will also be NaN.
+The function java.lang.Math.pow() always returns a double datatype.
