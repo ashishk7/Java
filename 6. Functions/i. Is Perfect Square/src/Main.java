@@ -8,11 +8,8 @@ public class Main {
     public static int perfectSquare(final int A) {
 
         for (int i = 0; i <= A; i++){
-            while(i*i<A) {
                 if (i * i == A)
                     return 1;
-                    break;
-            }
         }
         return 0;
     }
