@@ -5,18 +5,19 @@ Definition Of HCF: The HCF(Highest Common Factor) or the GCD(greatest common div
 
 import java.util.Scanner;
 public class Main {
-    public static int count(int A, int B) {
-        int ctr = 0;
-        for(int i = 2; i<=n; i++){
-            int factors = 0;
-            for(int j=2; j<=i; j++){
-                if(i%j==0) factors = factors + 1;
-            }
+    public static int HCF(int A, int B) {
+     int HCF = 1;
+     int last =0;
 
-            if(factors==1) ctr = ctr + 1;
-            factors=0;
-        }
-        return ctr;
+//     for(int i = 2; i <= (A < B ? A : B); i++){      //other way to check the smallest number and assign its value to i
+         if (A<B)last=A;                               //comment from here for alternative
+         if (A>B)last=B;
+         for (int i=2; i<=last;i++) {                   //comment till here for alternative
+         if ((A % i) == 0 && (B % i) == 0) {
+             if (i > HCF) HCF = i;
+         }
+     }
+     return HCF;
     }
 
     public static void main(String[] args) {
@@ -25,6 +26,6 @@ public class Main {
         int A = scanner.nextInt();
         System.out.print("Enter Number 2: ");
         int B = scanner.nextInt();
-        System.out.print(count(n));
+        System.out.print(HCF(A,B));
     }
 }
