@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/h. Check if Array is Sorted/1D Arrays.Check if Array is Sorted.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/h. Check if Array is Sorted/1D Arrays.Check if Array is Sorted.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/p. Consecutive Duplicate/1D Arrays.Consecutive Duplicate.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/p. Consecutive Duplicate/1D Arrays.Consecutive Duplicate.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/e. Copy the Array/1D Arrays.Copy the Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/e. Copy the Array/1D Arrays.Copy the Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/k. Even Odd Elements/1D Arrays.Even Odd Elements.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/k. Even Odd Elements/1D Arrays.Even Odd Elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/n. Frequency count/1D Arrays.Frequency count.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/n. Frequency count/1D Arrays.Frequency count.iml" />
-      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/gg. Frequency of X in Array/1D Arrays.Frequency of X in Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/gg. Frequency of X in Array/1D Arrays.Frequency of X in Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/g. Frequency of X in Array/1D Arrays.Frequency of X in Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/g. Frequency of X in Array/1D Arrays.Frequency of X in Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/b. Insert that/1D Arrays.Insert that.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/b. Insert that/1D Arrays.Insert that.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/c. Max and Min of an Array/1D Arrays.Max and Min of an Array.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/c. Max and Min of an Array/1D Arrays.Max and Min of an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 1D Arrays/j. Negative Integers/1D Arrays.Negative Integers.iml" filepath="$PROJECT_DIR$/7. 1D Arrays/j. Negative Integers/1D Arrays.Negative Integers.iml" />
