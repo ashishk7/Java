@@ -9,9 +9,9 @@ public class Main {
 
         for (int i = 0; i <= A; i++){
                 if (i * i == A)
-                    return 1;
+                    return 1;                 //if number is a perfect square return 1
         }
-        return 0;
+        return 0;                             //if number is not a perfect square return 0
     }
 
     public static void main(String[] args) {
