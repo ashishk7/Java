@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Enter Number of Test Cases: ");
         int T = scanner.nextInt();      //Take input for number of test cases
         for (int i = 0; i < T ; i++){
-//            System.out.print("Enter Length of the Array: ");
+            System.out.print("Enter Length of the Array: ");
             int N = scanner.nextInt();  //take input from the user for length of the array
             int[] arr = new int[N];
 
