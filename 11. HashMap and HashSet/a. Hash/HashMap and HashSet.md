@@ -1,4 +1,4 @@
-**Java HashSet**
+# **Java HashSet**
 
 A HashSet is a collection of items where every item is unique, and it is found in the java.util package
 
@@ -16,7 +16,7 @@ import java.util.HashSet; // Import the HashSet class
 
 HashSet<String> cars = new HashSet<String>();
 
-**Add Items**
+## **Add Items**
 
 The HashSet class has many useful methods. For example, to add items to it, use the add() method:
 
@@ -33,3 +33,14 @@ cars.add("Mazda");
 System.out.println(cars);
 }
 }
+
+
+**Remove Elements**
+
+To remove an item, use the remove() method:
+
+cars.remove("Volvo");
+
+It will remove an element and return true if it is present otherwise it will return False
+
+
