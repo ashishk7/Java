@@ -5,7 +5,7 @@ Note: Matrices are of same size means the number of rows and number of columns o
 Problem Constraints
 1 <= A.size(), B.size() <= 1000 1 <= A[i].size(), B[i].size() <= 1000 1 <= A[i][j], B[i][j] <= 1000
 
-![](C:\Users\ashis\OneDrive\Desktop\Robotics\1. Data\Github\Java\8. 2D Arrays\e. Add the matrices\Matrix_B.webp)
+![](https://raw.githubusercontent.com/ashishk7/Java/main/8.%202D%20Arrays/e.%20Add%20the%20matrices/Matrix_B.webp)
 
 Input Format
 The first argument is the 2D integer array A The second argument is the 2D integer array B
