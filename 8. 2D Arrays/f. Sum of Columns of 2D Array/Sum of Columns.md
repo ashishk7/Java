@@ -5,7 +5,6 @@ Given a 2D integer array C[][] of A rows and B columns. Return an integer array 
 ### Problem Constraints
 
 1 <= A,B <= 103
-
 1 <= C[i][j] <= 103
 
 ### Input Format
