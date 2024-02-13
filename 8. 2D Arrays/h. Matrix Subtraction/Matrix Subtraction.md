@@ -73,7 +73,7 @@ B = [[2, 3]]
 
 #### Explanation 1:
 
-
+![](https://raw.githubusercontent.com/ashishk7/Java/main/8.%202D%20Arrays/h.%20Matrix%20Subtraction/Matrix%20Subtraction.png)
 
 #### Explanation 2:
 
