@@ -2,14 +2,14 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Main {
-        public static int[][] solve(int[][] A, int[][] B) {
-            int[][] newMatrix = new int[A.length][B[0].length]; //not using B[0].length will give error out of bound
-            for(int row = 0 ; row<A.length ; row++){
-                for (int col=0; col<B[0].length; col++){
-                    newMatrix[row][col]=A[row][col]+B[row][col];
-                }
+    public static int[][] solve(int[][] A, int[][] B) {
+        int[][] newMatrix = new int[A.length][B[0].length]; //not using B[0].length will give error out of bound
+        for(int row = 0 ; row<A.length ; row++){
+            for (int col=0; col<B[0].length; col++){
+                newMatrix[row][col]=A[row][col]+B[row][col];
             }
-            return newMatrix;
+        }
+        return newMatrix;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
