@@ -2,7 +2,7 @@
 import java.util.*;
 public class Main {
     public static ArrayList<Integer> solve(ArrayList<ArrayList<Integer>> A) {
-        ArrayList<Integer> newList = new ArrayList<Integer>();
+        ArrayList<Integer> newList = new ArrayList<>();
         for(int i=0;i<A.size();i++){
             int rowSum = 0;
             for(int j=0; j<A.get(i).size(); j++) {
@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
-        ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>(); // Create an ArrayList object
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>(); // Create an ArrayList object
         System.out.print("Enter rows in ArrayList: ");
         int row = scanner.nextInt();
         System.out.print("Enter columns in ArrayList: ");
