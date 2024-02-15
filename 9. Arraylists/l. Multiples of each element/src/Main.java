@@ -3,7 +3,7 @@ public class Main {
     public static ArrayList<ArrayList<Integer>> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
         ArrayList<ArrayList<Integer>> multiplesList = new ArrayList<>();
 
-        for(int i=0; i<B.size(); i++){
+        for(int i = 0; i < (A.size() > B.size() ? A.size() : B.size()); i++){
                 multiplesList.add(findMultiples(A, B.get(i)));
             }
         return multiplesList;
@@ -17,7 +17,7 @@ public class Main {
         }
         return multiplesList;
     }
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         ArrayList<Integer> A = new ArrayList<>();
@@ -28,16 +28,19 @@ public class Main {
         System.out.print("Number of Elements in ArrayList B?: ");
         int sizeB = scanner.nextInt();
 
-
+        //Generate ArrayList A
         for (int i=0; i<sizeA; i++ ){
             A.add(random.nextInt(0, 50));
         }
+        //Generate ArrayList B
         for (int i=0; i<sizeB; i++ ){
             B.add(random.nextInt(0, 10));
         }
+        //Print Generated ArrayLists
         System.out.print("\nGenerated ArrayList A: \n"+A+"\n");
         System.out.print("\nGenerated ArrayList B: \n"+B+"\n");
 
+        //Print ArrayList of Multiples
         System.out.print("\nNew Matrix with Multiples: \n"+solve(A,B)+"\n");
     }
 }
