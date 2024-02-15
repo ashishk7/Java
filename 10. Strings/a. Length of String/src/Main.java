@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        String txt = "Please locate where 'locate' occurs!";
+        System.out.println(txt.indexOf("occ")); // Outputs 7
     }
 }
