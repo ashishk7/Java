@@ -32,6 +32,7 @@ System.out.println(txt.indexOf("locate")); // Outputs 7
 ```
 >[!Note]
 >Java counts positions from zero.
+> 
 >0 is the first position in a string, 1 is the second, 2 is the third ...
 
 
