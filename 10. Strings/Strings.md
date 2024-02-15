@@ -165,12 +165,228 @@ public int codePointBefore(int index)
 |Java Version:|	1.5|
 
 
-## codePointCount()
-## compareTo()
-## compareToIgnoreCase()
-## concat()
-## contains()
-## contentEquals()
+## Java String codePointCount() Method
+### Example
+Return the number of Unicode values found in a string:
+
+```java
+String myStr = "Hello";
+int result = myStr.codePointCount(0, 5);
+System.out.println(result);
+```
+### Definition and Usage
+The `codePointCount()` method returns the number of Unicode values found in a string.
+
+Use the startIndex and endIndex parameters to specify where to begin and end the search.
+
+The index of the first character is 0, the second character is 1, and so on.
+
+### Syntax
+```java
+public int codePointCount(int startIndex, int endIndex)
+```
+### Parameter Values
+
+| Parameter  |Description  |
+|------------|---|
+| startIndex |An `int` value, representing the index to the first character in the string|
+| endtIndex  |	An `int` value, representing the index after the last character in the string|
+
+### Technical Details
+
+|Returns:  |An int value, representing the number of Unicode values found in a string|
+|---|---|
+| **Throws:** |`IndexOutOfBoundsException` - if startIndex is negative, or endindex is larger than the length of the string, or startIndex is larger than endIndex|
+|Java Version:|	1.5|
+
+
+
+## Java String compareTo() Method
+### Example
+Compare two strings:
+```java
+String myStr1 = "Hello";
+String myStr2 = "Hello";
+System.out.println(myStr1.compareTo(myStr2)); // Returns 0 because they are equal
+```
+### Definition and Usage
+The `compareTo()` method compares two strings lexicographically.
+
+The comparison is based on the Unicode value of each character in the strings.
+
+The method returns 0 if the string is equal to the other string. A value less than 0 is returned if the string is less than the other string (less characters) and a value greater than 0 if the string is greater than the other string (more characters).
+
+>[!Tip]
+> Use compareToIgnoreCase() to compare two strings lexicographyically, ignoring lower case and upper case differences.
+>[!Tip]
+> Use the equals() method to compare two strings without consideration of Unicode values.
+
+### Syntax
+```java
+public int compareTo(String string2)
+public int compareTo(Object object)
+```
+### Parameter Values
+
+| Parameter  |Description  |
+|------------|---|
+| string2 |A `String`, representing the other string to be compared|
+| object |An `Object`, representing an object to be compared|
+
+### Technical Details
+**Returns:**
+```java
+An int value: 0 if the string is equal to the other string.
+< 0 if the string is lexicographically less than the other string
+> 0 if the string is lexicographically greater than the other string (more characters)
+```
+
+## Java String compareToIgnoreCase() Method
+### Example
+Compare two strings, ignoring lower case and upper case differences:
+
+```java
+String myStr1 = "HELLO";
+String myStr2 = "hello";
+System.out.println(myStr1.compareToIgnoreCase(myStr2));
+```
+### Definition and Usage
+The `compareToIgnoreCase()` method compares two strings lexicographically, ignoring lower case and upper case differences.
+
+The comparison is based on the Unicode value of each character in the string converted to lower case.
+
+The method returns 0 if the string is equal to the other string, ignoring case differences. A value less than 0 is returned if the string is less than the other string (less characters) and a value greater than 0 if the string is greater than the other string (more characters).
+### Syntax
+```java
+public int compareToIgnoreCase(String string2)
+```
+### Parameter Values
+
+| Parameter |Description  |
+|-----------|---|
+| string2   |A String, representing the other string to be compared|
+
+### Technical Details
+**Returns:**
+```java
+An int value: 0 if the string is equal to the other string, ignoring case differences.
+< 0 if the string is lexicographically less than the other string
+> 0 if the string is lexicographically greater than the other string (more characters)
+```
+
+
+## Java String concat() Method
+### Example
+Concatenate two strings:
+
+```java
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+```
+### Definition and Usage
+The `concat()` method appends (concatenate) a string to the end of another string.
+
+
+### Syntax
+```java
+public String concat(String string2)
+```
+### Parameter Values
+
+| Parameter |Description  |
+|-----------|---|
+| string2   |A String, representing the string that should be appended to the other string|
+
+### Technical Details
+**Returns:**
+```java
+A String, representing the text of the combined strings
+```
+
+
+## Java String contains() Method
+### Example
+Find out if a string contains a sequence of characters:
+
+```java
+String myStr = "Hello";
+System.out.println(myStr.contains("Hel"));   // true
+System.out.println(myStr.contains("e"));     // true
+System.out.println(myStr.contains("Hi"));    // false
+```
+### Definition and Usage
+The `contains()` method checks whether a string contains a sequence of characters.
+
+Returns `true` if the characters exist and `false` if not.
+
+### Syntax
+```java
+public boolean contains(CharSequence chars)
+```
+### Parameter Values
+
+| Parameter |Description  |
+|-----------|---|
+| CharSequence chars  |The characters to be searched for|
+
+### Technical Details
+**Returns:**
+```java
+A boolean, indicating whether a sequence of characters exist in the specified string:
+true - sequence of characters exists
+false - sequence of characters do not exist
+```
+Throws:
+```java
+NullPointerException - if the returned value is null
+```
+
+
+
+
+## Java String contentEquals() Method
+### Example
+Find out if a string contains a sequence of characters:
+
+```java
+String myStr = "Hello";
+System.out.println(myStr.contains("Hel"));   // true
+System.out.println(myStr.contains("e"));     // false
+System.out.println(myStr.contains("Hi"));    // false
+```
+### Definition and Usage
+The `contentEquals()` method searches a string to find out if it contains the exact same sequence of characters in the specified string or StringBuffer.
+
+Returns `true` if the characters exist and `false` if not.
+### Syntax
+There are 2 `contentEquals()` methods:
+```java
+public boolean contentEquals(StringBuffer chars)
+public boolean contentEquals(CharSequence chars)
+```
+### Parameter Values
+
+| Parameter |Description  |
+|-----------|---|
+| StringBuffer chars  |The StringBuffer to be searched for|
+|CharSequence chars|The sequence of characters to be searched for|
+
+>[!Tip]
+> The StringBuffer class is like a String, only it can be modified, found in the java.lang package. 
+> The CharSequence interface is a readable sequence of char values, found in the java.lang package.
+
+### Technical Details
+**Returns:**
+```java
+A boolean, indicating whether the exact same sequence of characters exist in the specified string (or StringBuffer)
+true - sequence of characters exists
+false - sequence of characters do not exis
+```
+
+
+
+
 ## copyValueOf()
 ## endsWith()
 ## equals()
@@ -202,4 +418,4 @@ public int codePointBefore(int index)
 ## valueOf()
 
 
-
+https://www.w3schools.com/java/java_ref_string.asp
