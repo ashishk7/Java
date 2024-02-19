@@ -1,17 +1,46 @@
 import java.util.*;
 public class Main {
-    public static int solve(ArrayList<Integer> A) {
+/*    public static int solve(ArrayList<Integer> A) {
+        int count=0;
         HashSet<Integer> Unique = new HashSet<>();
         for (int i = 0; i<A.size(); i++){
             Unique.add(A.get(i));
         }
-        for(int j=0; j<Unique.size(); j++){
-            freq(A,)
+        System.out.print("\n"+Unique+"\n");
+        for(int element: Unique){
+            int f = freq(element, A);
+            if(f==1){
+                count++;
+            }
         }
-        System.out.print(Unique);
+
+        return count;
+    }
+    public static int freq(int I, ArrayList<Integer> A){
+        int f=0;
+        for(int i=0; i<A.size();i++){
+            if(A.get(i)==I){
+                f++;
+            }
+        }
+        return f;
+    }*/
+
+    public static int solve(ArrayList<Integer> A) {
+    HashMap<Integer, Integer> Unique = new HashMap<>();
+        for (int i=0; i<A.size();i++){
+        int x = Unique.put(A.get(i), 1);
+        System.out.println(x);
+        }
         return 1;
     }
-    public static int freq(ArrayList<Integer> A)
+//    public static int freq(int I, ArrayList<Integer> A) {
+//        HashMap<Integer, Integer> Unique = new HashMap<>();
+//        for (int i=0; i<A.size();i++){
+//            Unique.put(A.get(i), freq(A.get(i)))
+//        }
+//    }
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
