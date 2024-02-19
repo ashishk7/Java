@@ -29,17 +29,18 @@ public class Main {
     public static int solve(ArrayList<Integer> A) {
     HashMap<Integer, Integer> Unique = new HashMap<>();
         for (int i=0; i<A.size();i++){
-        int x = Unique.put(A.get(i), 1);
-        System.out.println(x);
+            if(Unique.containsKey(A.get(i))){
+                Unique.put()
+            }
         }
         return 1;
     }
-//    public static int freq(int I, ArrayList<Integer> A) {
-//        HashMap<Integer, Integer> Unique = new HashMap<>();
-//        for (int i=0; i<A.size();i++){
-//            Unique.put(A.get(i), freq(A.get(i)))
-//        }
-//    }
+    public static int freq(int I, ArrayList<Integer> A) {
+        HashMap<Integer, Integer> Unique = new HashMap<>();
+        for (int i=0; i<A.size();i++){
+            Unique.put(A.get(i), freq(A.get(i)))
+        }
+    }
 
     public static void main(String[] args) {
 
