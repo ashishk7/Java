@@ -6,6 +6,8 @@ public class Main {
         for (int num : A) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
+        System.out.print(map);
+
         int count=0;
         for (int i : map.keySet()) {
             count++;
