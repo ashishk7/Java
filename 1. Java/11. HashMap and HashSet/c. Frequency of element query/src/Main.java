@@ -1,12 +1,21 @@
 import java.util.HashMap;
 import java.util.*;
 public class Main {
-    public static HashMap<Integer, Integer> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
+    public static ArrayList<Integer> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
         HashMap<Integer, Integer> map = new HashMap<>();
-            for(int numA : A){
-                map.put(numA, map.getOrDefault(numA, 0) + 1);
+        ArrayList<Integer> newList = new ArrayList<>();
+        for(int numA : A){
+            map.put(numA, map.getOrDefault(numA, 0) + 1);
+        }
+        System.out.println(map);
+        for(int i : B) {
+            if(map.get(i)!=null){
+                newList.add(map.get(i));
             }
-        return map;
+            else newList.add(0);
+        }
+        System.out.println(newList);
+        return newList;
     }
 
     public static void main(String[] args) {
