@@ -3,11 +3,9 @@ import java.util.*;
 public class Main {
     public static HashMap<Integer, Integer> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int numB : B) {
             for(int numA : A){
-                map.put(B.get(numB), map.getOrDefault(numA, 0) + 1);
+                map.put(numA, map.getOrDefault(numA, 0) + 1);
             }
-        }
         return map;
     }
 
