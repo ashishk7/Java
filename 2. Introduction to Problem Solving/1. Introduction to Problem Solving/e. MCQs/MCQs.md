@@ -123,6 +123,7 @@ c. 113
 d. 114
 ```
 ---
+
 ### Q7. Find the total number of iterations in the following code:
 
 ```java
@@ -157,6 +158,33 @@ c. M
 d. N/2 + M/2
 ```
 ---
+### Q8. Find the total number of iterations in the following code snippet:
+
+`NOTE: ^ denotes power, not Bitwise XOR.`
+
+```java
+for (int i = 1; i <= n; i++)
+        {
+        for (int j = 1; j <= 3 ^ i; j++)
+        {
+print(i + j);
+    }
+            }
+```
+### Options
+```java
+a. n^3 times.
+```
+```java
+b. 3 + 9 + 27 + .... + 3^n times.
+```
+```java
+c. 3^n times.
+```
+```java
+d. n * (3^n) times.
+```
+---
 
 ### Answers:
 `Q1. c`
@@ -166,5 +194,5 @@ d. N/2 + M/2
 `Q5. c`
 `Q6. b`
 `Q7. b`
-
+`Q8. b`
 ---
